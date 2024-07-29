@@ -154,14 +154,12 @@ font-family: 'maima';
     color: #ffffff;
     font-size: 2.8rem;
     font-weight: 700;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .workouts span{
     color: #969494;
     font-size: 1rem;
     font-weight: 500;
     text-transform: capitalize;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .tutorials{
@@ -182,14 +180,14 @@ font-family: 'maima';
     color: #fff;
     font-size: 1.8rem;
     font-weight: 700;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .tutorial-content span{
     color: #979797;
     font-size: 1rem;
     font-weight: 500;
     text-transform: capitalize;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 
 .tip{
@@ -208,13 +206,11 @@ font-family: 'maima';
 }
 
 .meet-team-container{
-    max-width: 1440px;
+    max-width:1120px;
     margin:0 auto;
 }
 
 .upper-content-wrap{
-    width:70%;
-    margin:0 auto;
   text-align: center;
   align-items: center;
   margin-bottom: 50px;
