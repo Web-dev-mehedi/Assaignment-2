@@ -16,12 +16,13 @@ body{
 }
 
 .nav-header{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
    background-color: rgb(35, 35, 35);
    padding: 40px 120px;
 }
+
 
 .logo i{
     color: rgb(230, 83, 60);
@@ -58,12 +59,19 @@ body{
 }
 
 .versatile-hero-section{
-     display: flex;
+   
+     padding: 200px 120px;
+     background-color: rgb(35, 35, 35);
+}
+
+.versetile-hero-container{
+    max-width: 1440px;
+    margin:0 auto;
+    display: flex;
      justify-content:space-between;
      align-items: center;
      gap: 80px;
-     padding: 200px 120px;
-     background-color: rgb(35, 35, 35);
+     
 }
 
 .vesatile-left-contant-wrap{
@@ -156,10 +164,6 @@ font-family: 'maima';
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-
-
-
 .tutorials{
     width:190px;
     height: 100px;
@@ -173,11 +177,6 @@ font-family: 'maima';
     margin-top: -190px;
     margin-right: 344px;
 }
-
-
-
-
-
 
 .tutorial-content h2{
     color: #fff;
@@ -201,9 +200,126 @@ font-family: 'maima';
 
 }
 
+/* meet-our-team-style-here */
 
+.meet-our-team-sec{
+   padding: 140px 120px;
+   background-color: #000000;
+}
 
+.meet-team-container{
+    max-width: 1440px;
+    margin:0 auto;
+}
 
+.upper-content-wrap{
+    width:70%;
+    margin:0 auto;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.upper-content-wrap h2{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 90px;
+}
+
+.upper-content-wrap p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+ 
+}
+
+.bottom-content-wrap{
+
+}
+
+.image-gellary{
+   display:grid;
+   grid-template-columns: repeat(3,1fr);
+   gap:20px;
+   background: rgba(86, 86, 86, 0.2);
+   padding: 20px;
+   border-radius: 18px;
+}
+
+.images1{
+
+  background-image: url("../assets/images/trainer1.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;
+ 
+}
+
+.images2{
+ 
+    background-image: url("../assets/images/trainer2.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.images3{ 
+    
+    background-image: url("../assets/images/trainer3.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.images4{
+   
+    background-image: url("../assets/images/trainer4.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.images5{
+ 
+    background-image: url("../assets/images/trainer5.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.images6{
+    background-image: url("../assets/images/trainer6.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.images1 ,.images2 ,.images3 ,.images4 ,.images5 ,.images6 {
+    align-content:end;
+    border-radius: 18px;
+    height:272px;
+    width:100%;
+    margin: auto;
+}
+
+.images1 h3,.images2 h3,.images3 h3,.images4 h3,.images5 h3,.images6 h3{
+    color:rgb(255, 255, 255) ;
+     font-size: 1.4rem;
+     font-weight: 900;
+     padding-left: 20px;
+     
+     
+
+}
+
+.images1 span ,.images2 span ,.images3 span ,.images4 span ,.images5 span,.images6 span {
+    color:rgba(255, 255, 255, 0.5) ;
+    font-size:0.9rem;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    display: block;
+
+}
 
 
 
@@ -215,6 +331,10 @@ font-family: 'maima';
     background-color:rgb(26, 26, 26);
 }
 
+.footer-container{
+    max-width: 1440px;
+    margin:0 auto;
+}
 .upper-footer{
     display: flex;
     justify-content:space-between;
