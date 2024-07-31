@@ -206,7 +206,7 @@ font-family: 'maima';
 }
 
 .meet-team-container{
-    max-width:1120px;
+    max-width:1440px;
     margin:0 auto;
 }
 
@@ -249,7 +249,7 @@ font-family: 'maima';
   background-image: url("../assets/images/trainer1.png");
   background-position:center;
   background-repeat:no-repeat;
-  background-size: cover;
+  background-size: contain;
  
 }
 
