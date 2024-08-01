@@ -15,6 +15,45 @@ body{
     padding: 0;
 }
 
+/* default-paragraph-content */
+
+.vesatile-left-contant-wrap p,.extra-mile-text-wrap p,.footer-left p,.upper-content-wrap p{
+   text-transform: capitalize;
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 0.9rem;
+   font-weight: 400;
+   line-height: 25px;
+   margin:20px 0px;
+  }
+
+/* default-button-design */
+
+
+.vesatile-left-contant-wrap button:hover,.extra-mile-text-wrap button:hover{
+    color: #42e9ff;
+    background-color: transparent;
+    border: 1px solid blanchedalmond;
+
+  }
+  .vesatile-left-contant-wrap button,.extra-mile-text-wrap button{
+    padding: 14px 40px;
+    margin-right: 20px;
+    color: #ffffff;
+    background-color: #ff3407;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    transition: 0.5s;
+    cursor: pointer;
+    border:none;
+    margin-top:15px;
+    text-transform: capitalize;
+    font-weight: 500;
+ }
+
+
+/* navigation-style-start-here */
+
 .nav-header{
     display: flex;
     justify-content: space-between;
@@ -94,35 +133,6 @@ body{
 font-family: 'maima'; 
  }
 
- .vesatile-left-contant-wrap p{
-    color: #6c6c6c;
-    font-size: 1rem;
-   text-transform: capitalize;
-   margin: 25px 0px;
-   line-height: 25px;
-  }
-
-  .vesatile-left-contant-wrap button{
-     padding: 14px 35px;
-     margin-right: 20px;
-     color: #ffffff;
-     background-color: #ff3407;
-     border-radius: 50px;
-     letter-spacing: 1px;
-     font-size: 1.1rem;
-     transition: .5s;
-     cursor: pointer;
-     border:none;
-     margin-top:25px
-  }
-
-  .vesatile-left-contant-wrap button:hover{
-    color: #42e9ff;
-    background-color: transparent;
-    border: 1px solid blanchedalmond;
-
-  }
-
 
 .versatile-right-content-wrap{
     width:calc(50% - 40px);
@@ -198,6 +208,51 @@ font-family: 'maima';
 
 }
 
+
+/* extra-mile-section-style-start-here */
+
+
+.extra-mile-sec{
+padding: 140px 120px;
+   background-color: #000000;
+}
+
+.extra-mile-container{
+  max-width:1400px;
+  margin:0 auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 190px;
+  background-color: #54545448;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.extra-mile-text-wrap{
+
+width:calc(50% - 50px);
+margin:0 auto;
+}
+
+.extra-mile-text-wrap h1{
+  font-size: 3rem;
+  color:#fff;
+    }
+
+.extra-mile-image-wrap{
+   width:calc(50% - 50px);
+   margin:0 auto;
+
+}
+
+.extra-mile-image-wrap img{
+    width:100%;
+    border-radius: 16px;
+    height:290px;
+}
+
+
 /* meet-our-team-style-here */
 
 .meet-our-team-sec{
@@ -223,13 +278,7 @@ font-family: 'maima';
     line-height: 90px;
 }
 
-.upper-content-wrap p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 0.9rem;
-    font-weight: 400;
-    line-height: 24px;
- 
-}
+
 
 .bottom-content-wrap{
 
@@ -247,9 +296,9 @@ font-family: 'maima';
 .images1{
 
   background-image: url("../assets/images/trainer1.png");
-  background-position:center;
+  background-position:center center;
   background-repeat:no-repeat;
-  background-size: contain;
+  background-size: cover;
  
 }
 
@@ -350,13 +399,6 @@ font-family: 'maima';
     font-size: 4.2rem;
     font-weight: 800;
     margin-bottom: 20px;
-}
-
-.footer-left p{
-    color: rgba(255, 255, 255, 0.5);
-font-size: 0.9rem;
-font-weight: 400;
-line-height: 24px;
 }
 
 
