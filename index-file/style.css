@@ -17,7 +17,7 @@ body{
 
 /* default-paragraph-content */
 
-.habit-card p,.bmi-title-wrap p, .vesatile-left-contant-wrap p,.extra-mile-text-wrap p,.footer-left p,.upper-content-wrap p,.traning-text-contant p,.bmi-inner-text p{
+.pricing-card-content p,.habit-card p,.bmi-title-wrap p, .vesatile-left-contant-wrap p,.extra-mile-text-wrap p,.footer-left p,.upper-content-wrap p,.traning-text-contant p,.bmi-inner-text p{
    text-transform: capitalize;
    color: rgba(255, 255, 255, 0.5);
    font-size: 0.9rem;
@@ -29,7 +29,7 @@ body{
 /* default-button-design */
 
 
-.bmi-right-content-wrap button:hover,.vesatile-left-contant-wrap button:hover,.extra-mile-text-wrap button:hover{
+.pricing-card-content button:hover,.bmi-right-content-wrap button:hover,.vesatile-left-contant-wrap button:hover,.extra-mile-text-wrap button:hover{
     color: #42e9ff;
     background-color: transparent;
     border: 1px solid blanchedalmond;
@@ -37,7 +37,7 @@ body{
 
   }
   /* button-style */
-  .vesatile-left-contant-wrap button,.extra-mile-text-wrap button,.bmi-right-content-wrap button{
+  .pricing-card-content button,.vesatile-left-contant-wrap button,.extra-mile-text-wrap button,.bmi-right-content-wrap button{
     padding: 14px 40px;
     margin-right: 20px;
     color: #ffffff;
@@ -636,7 +636,67 @@ option{
 
 }
 
+/* our-pricing-plan-style-here */
 
+.our-pricing-plan{
+padding: 10px 120px 100px;
+background-color: #000000;
+}
+
+.top-pricing-content-wrap{
+    width:80%;
+    margin:0 auto;
+    margin-bottom: 90px;
+}
+.top-pricing-content-wrap h2{
+color: #eff5fe;
+text-align:center;
+font-size: 1.3rem;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 2px;
+}
+
+.bottom-pricing-content-wrap{
+background-color:rgb(36, 20, 28) ;
+display: flex;
+justify-content: center;
+align-items: center;
+/* gap:70px; */
+padding:50px;
+border-radius: 10px;
+}
+
+.pricing-card-content{
+    padding:10px 30px;
+}
+
+.pricing-card-content:nth-child(1){
+    border-right: 1px solid rgb(105, 105, 105);
+    margin-right: 20px;
+  }
+.pricing-card-content:nth-child(2){
+  border-right: 1px solid rgb(105, 105, 105);
+  margin-right: 20px;
+}
+.pricing-card-content h2{
+    text-transform: capitalize;
+    color: rgba(227, 227, 227, 0.957);
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pricing-card-content span{
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin:20px 0px;
+    display:block;
+    line-height: 20px;
+    
+}
 
 /* footer-style-start-here */
 
