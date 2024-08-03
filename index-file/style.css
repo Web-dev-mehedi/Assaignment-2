@@ -37,7 +37,7 @@ body{
 
   }
   /* button-style */
-  .pricing-card-content button,.vesatile-left-contant-wrap button,.extra-mile-text-wrap button,.bmi-right-content-wrap button{
+  .vesatile-left-contant-wrap button, .pricing-card-content button,.extra-mile-text-wrap button,.bmi-right-content-wrap button{
     padding: 14px 40px;
     margin-right: 20px;
     color: #ffffff;
@@ -227,7 +227,6 @@ font-family: 'maima';
 }
 .upper-content-wrap h1{
     color: rgb(255, 255, 255);
-    font-family: Inter;
     font-size:3rem;
     font-weight: 900;
     text-align:center;
@@ -408,13 +407,13 @@ padding: 20px;
     color: rgb(255, 255, 255);
 font-size: 3rem;
 font-weight: 900;
-
 }
 
 .bmi-bottom-sub-section{
     padding: 52px 120px;
     background: rgb(34, 34, 34);
 }
+
 .bmi-content-wrap{
     max-width:1400px;
     margin:0 auto;
@@ -443,6 +442,7 @@ table,th,td{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
     padding:15px 18px 15px;
+    border-radius: 5px;
 }
 th{
     color: #eff5fe;
@@ -660,9 +660,8 @@ letter-spacing: 2px;
 .bottom-pricing-content-wrap{
 background-color:rgb(36, 20, 28) ;
 display: flex;
-justify-content: center;
+justify-content:center;
 align-items: center;
-/* gap:70px; */
 padding:50px;
 border-radius: 10px;
 }
@@ -671,14 +670,11 @@ border-radius: 10px;
     padding:10px 30px;
 }
 
-.pricing-card-content:nth-child(1){
+.pricing-card-content:nth-child(1),.pricing-card-content:nth-child(2){
     border-right: 1px solid rgb(105, 105, 105);
     margin-right: 20px;
   }
-.pricing-card-content:nth-child(2){
-  border-right: 1px solid rgb(105, 105, 105);
-  margin-right: 20px;
-}
+
 .pricing-card-content h2{
     text-transform: capitalize;
     color: rgba(227, 227, 227, 0.957);
