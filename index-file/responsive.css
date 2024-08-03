@@ -45,10 +45,10 @@
 .workouts span{
     font-size: 0.7rem;
 }
-
+/* 
 .tutorials{
    
-}
+} */
 .ver-hero-btn {
     width:100%;
     display: flex;
@@ -253,9 +253,9 @@ font-size: 12px;
     margin-left:-100px;
 }
 
-.tutorials{
+/* .tutorials{
    
-}
+} */
 
 .changes-your-habit{
     padding: 40px 30px;
@@ -415,9 +415,9 @@ width:50%;
 
 }
 
-.tutorials{
+/* .tutorials{
    
-}
+} */
 
 .changes-your-habit{
     padding: 40px 30px;
