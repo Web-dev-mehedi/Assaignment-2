@@ -41,7 +41,7 @@ body{
     padding: 14px 40px;
     margin-right: 20px;
     color: #ffffff;
-    background-color: #ff3407;
+    background-color:#e6533c;
     border-radius: 50px;
     letter-spacing: 1px;
     font-size: 1.1rem;
@@ -60,7 +60,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   background-color: rgb(35, 35, 35);
+   background-color: #202020;
    padding: 40px 120px;
 }
 
@@ -101,8 +101,8 @@ body{
 
 .versatile-hero-section{
    
-     padding: 200px 120px;
-     background-color: rgb(35, 35, 35);
+     padding: 20px 120px;
+     background: linear-gradient(to bottom , #202020, #000000);
 }
 
 .versetile-hero-container{
@@ -139,10 +139,7 @@ font-family: 'maima';
 .versatile-right-content-wrap{
     width:calc(50% - 40px);
     margin: 0 auto;
-    align-content: end;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
+   position: relative;
 
 }
 
@@ -152,14 +149,17 @@ font-family: 'maima';
 }
 
 .workouts{
-    width:150px;
+    width:170px;
     backdrop-filter: blur(10px);
     border-radius:15px;
     border: 1px solid rgb(125, 125, 125);
     background-color: #6c6c6c3c;
     text-align: left;
     padding: 15px 20px 15px 20px;
-    margin-bottom: -365px;
+    position: absolute;
+    left: 340px;
+    top: 195px;
+    
 }
 .workouts h2{
     margin-bottom: 10px;
@@ -184,8 +184,8 @@ font-family: 'maima';
     backdrop-filter: blur(10px);
     border-radius:15px;
     border: 1px solid rgb(125, 125, 125);
-    margin-top: -190px;
-    margin-right: 344px;
+    position: absolute;
+    bottom: 95px;
 }
 
 .tutorial-content h2{
@@ -438,12 +438,20 @@ text-align: left;
 margin-bottom: 52px;
 }
 
+
 table,th,td{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
     padding:15px 18px 15px;
-    border-radius: 5px;
+ 
 }
+
+table{
+    border-style: hidden; /* hide standard table (collapsed) border */
+   box-shadow: 0 0 0 1px #666; /* this draws the table border  */
+   border-radius: 5px;
+}
+
 th{
     color: #eff5fe;
     text-align: left;
@@ -478,7 +486,7 @@ text-align: left;
 }
 .bmi-inner-input input{
     
-    width:calc(50% - 30px);
+    width:calc(50% - 21px);
     padding: 15px 0px 15px 15px;
     outline: none;
     background: rgba(255, 255, 255, 0.1);
@@ -497,8 +505,8 @@ text-align: left;
     color: #ff3407;
 }
 .option1{
-    width:calc(50% - 16px);
-    padding: 15px 110px 15px 15px;
+    width:calc(50% - 6px);
+    padding: 15px 0px 15px 15px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
    border: none; 
@@ -509,7 +517,7 @@ text-align: left;
    outline: none;
 }
 .option-2{
-    width:calc(100% - 19px);
+    width:100%;
 padding: 15px 15px 15px 15px;
 margin-bottom: 30px;
 background: rgba(255, 255, 255, 0.1);
