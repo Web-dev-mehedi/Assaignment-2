@@ -26,8 +26,7 @@ body{
    margin:20px 0px;
   }
 
-/* default-button-design */
-
+/* default-button-hover-file*/
 
 .pricing-card-content button:hover,.bmi-right-content-wrap button:hover,.vesatile-left-contant-wrap button:hover,.extra-mile-text-wrap button:hover{
     color: #42e9ff;
@@ -85,7 +84,7 @@ body{
 
 }
 .navigation ul li:nth-child(1){
-    background-color: #ff3407;
+    background-color: #e6533c;
     border-radius: 20px;
     padding: 8px 15px;
 }
@@ -98,7 +97,9 @@ body{
     font-weight: 600;
 
 }
-
+.nav-header span{
+    display: none;
+}
 .versatile-hero-section{
    
      padding: 20px 120px;
@@ -156,8 +157,9 @@ font-family: 'maima';
     background-color: #6c6c6c3c;
     text-align: left;
     padding: 15px 20px 15px 20px;
+    align-content:end;
     position: absolute;
-    left: 340px;
+    right: -50px;
     top: 195px;
     
 }
@@ -259,6 +261,7 @@ text-align: center;
     border:3px solid #4e4e4e;
     margin-bottom: 30px;
 }
+
 /* extra-mile-section-style-start-here */
 
 
@@ -656,6 +659,15 @@ background-color: #000000;
     margin:0 auto;
     margin-bottom: 90px;
 }
+.pricing-plan-title{
+    margin-bottom: 50px;
+}
+.pricing-plan-title h1{
+color:#fff;
+text-align: center;
+font-size: 3.5rem;
+text-transform: capitalize;
+}
 .top-pricing-content-wrap h2{
 color: #eff5fe;
 text-align:center;
@@ -668,7 +680,7 @@ letter-spacing: 2px;
 .bottom-pricing-content-wrap{
 background-color:rgb(36, 20, 28) ;
 display: flex;
-justify-content:center;
+justify-content:space-between;
 align-items: center;
 padding:50px;
 border-radius: 10px;
